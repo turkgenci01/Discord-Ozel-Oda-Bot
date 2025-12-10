@@ -1,0 +1,20 @@
+{
+  "name": "discord-ozel-oda-bot",
+  "version": "1.0.0",
+  "description": "Çoklu sunucu destekli, modern Discord özel oda sistemi botu",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "build": "echo 'Build successful'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "voice", "private-room"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
